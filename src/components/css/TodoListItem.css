@@ -1,0 +1,40 @@
+.TodoListItem {
+   padding: 1rem;
+   display: flex;
+   align-items: center;
+   width: 31%;
+}
+.TodoList {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+.uddBtns {
+   text-align: center;
+   margin-left: 50px;
+}
+.uddBtns div {
+   margin-bottom: 30px;
+}
+.TodoListItem:nth-child(even) {
+   background: #f8f9fa;
+}
+
+.TodoListItem .remove {
+   align-items: center;
+   font-size: 1.5rem;
+   color: #c72d2d;
+   cursor: pointer;
+}
+
+.TodoListItem .remove:hover {
+   color: #ff8787;
+}
+div .text {
+   text-align: center;
+   font-size: 24px;
+   font-weight: bolder;
+}
+svg {
+   font-size: 28px;
+}
