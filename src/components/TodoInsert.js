@@ -27,6 +27,22 @@ function TodoInsert({ onInsert }) {
                <IoMdAddCircleOutline />
             </button>
          </form>
+         <ul className="pname">
+            <li className="plist">진화 확인 가능 포켓몬</li>
+            <li className="plist">|</li>
+            <li className="plist">이상해씨</li>
+            <li className="plist">파이리</li>
+            <li className="plist">꼬부기</li>
+            <li className="plist">팽도리</li>
+            <li className="plist">발챙이</li>
+            <li className="plist">구구</li>
+            <li className="plist">꼬마돌</li>
+            <li className="plist">리아코</li>
+            <li className="plist">브케인</li>
+            <li className="plist">치코리타</li>
+            <li className="plist">모다피</li>
+            <li className="plist">케이시</li>
+         </ul>
       </>
    )
 }

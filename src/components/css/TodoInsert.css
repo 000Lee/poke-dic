@@ -36,3 +36,20 @@
 .TodoInsert button:hover {
    background: #adb5bd;
 }
+.pname {
+   padding: 0;
+   margin: 0;
+   background-color: rgb(255, 119, 119);
+   color: white;
+   display: flex;
+}
+.plist {
+   list-style: none;
+   margin: 0;
+   padding: 15px;
+   color: white;
+}
+.plist:nth-child(2) {
+   padding-left: 0;
+   font-weight: bold;
+}
